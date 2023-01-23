@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
+
     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/3e42976856.js" crossorigin="anonymous"></script>
     <!-- main css -->
@@ -15,38 +24,71 @@
 </head>
 <body>
     <!-- header -->
-    <header class=" ">
+    <header class=" container">
         <!-- nav start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Justice</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
+            <div class="container-fluid  ">
+                <img src="./images/Group 2.png" alt="">
+              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 second-font">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link"  href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Services <i class="fa-solid fa-chevron-right"></i></a>
                   </li>
                 
                   <li class="nav-item">
-                    <a class="nav-link ">Cases</a>
+                    <a class="nav-link ">Cases <i class="fa-solid fa-chevron-right"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ">Blog</a>
+                    <a class="nav-link ">Blog <i class="fa-solid fa-chevron-right"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ">Contact Us</a>
+                    <a class="nav-link ">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
                   </li>
                 </ul>
               
                  
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <button class="btn primary-bg p-3 text-white" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Free Consultation</button>
+
+                  <!-- modal start -->
+                
+                  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog ">
+                      <div class="modal-content primary-bg">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Submit Your Details</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body ">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label fw-bold">Your Name: </label>
+                              <input type="text" class="form-control" id="recipient-name" placeholder="Your Full Name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label fw-bold"  >Email:</label>
+                              <input class="form-control" id="message-text" type="email" placeholder="Your email">
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-dark">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- modal end-->
                 
               </div>
+
             </div>
           </nav>
         <!-- nav end -->
