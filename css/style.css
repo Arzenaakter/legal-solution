@@ -2,7 +2,7 @@
     font-family: 'EB Garamond', serif;
     color: #414040;
     font-size: 40px;
-    
+
 }
 
 .second-font {
@@ -10,15 +10,14 @@
     color: #707070;
     font-weight: 400;
     font-size: 16px;
-    
+
 }
-.primary-bg{
-    
-background-color: #B68C5A
- !important;
+
+.primary-bg {
+
+    background-color: #B68C5A !important;
 }
-.card-hover:hover{
+
+.card-hover:hover {
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%)
-
 }
-
